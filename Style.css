@@ -12,6 +12,11 @@ html, body {
     margin: auto;
 }
 
+.topContainer{
+    position: fixed;
+    top:0px;
+}
+
 .icon{
     width: 50%;
     align-self: center;
@@ -93,4 +98,57 @@ html, body {
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     line-height: 2;
     font-size: 20px;
+}
+
+.projectPanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectImg{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+#projects{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 0.2em #f8d16c solid;
+    padding-left: 0.8em;
+    color: #3b3736;
+    padding-right: 0.8em;
+    padding-bottom: 0.3em;
+
+}
+
+.projectList{
+    display: flex;
+    flex-direction: row;
+    width: 1127px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourCol{
+    width: 25%;
+    text-align: right;
+    padding: 1rem;
+}
+
+.header{
+    color: #000000;
+    display: inline;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+}
+
+.projectList p{
+    color: #999999;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1em;
+    margin-top: 0.5em;
 }
