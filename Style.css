@@ -1,3 +1,4 @@
+
 html, body {
     height: 100%;
     margin: 0;
@@ -240,4 +241,81 @@ html, body {
     color: #263146;
     transition: background-color 0.3s;
     cursor: pointer;
+}
+
+.blueColorBack{
+    background-color: #293b52;
+}
+
+.contactPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 1127px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.contact{
+    width: 50%;
+}
+
+.contactUsHeading{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    padding-top: 28px;
+    text-transform: uppercase;
+}
+
+.address{
+    color: #ddd;
+    line-height: 1.7;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0 0 1em;
+    font-size: 14px;
+}
+
+.aboutHeading{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    padding-top: 28px;
+    text-transform: uppercase;
+}
+
+.aboutInfo{
+    color: #ddd;
+    line-height: 1.7;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0 0 1em;
+    font-size: 14px;
+}
+
+.NoeMail{
+    margin: 0 0 1em;
+    line-height: 1.4285em;
+    margin-left: 12px;
+    color: #f8d16c;
+}
+
+footer{
+    width: 100%;
+    background-color: #263146;
+    color: #ffffff;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    min-height: 6%;
+    display: flex;
+    align-items: center;
+}
+
+#foot{
+    width: 1127px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    font-size: 14px;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    max-width: 100% !important;
 }
