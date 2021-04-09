@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -68,10 +72,11 @@ html, body {
 }
 
 .container.blogs{
-    height: 100%;
+    height: auto;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 3em;
+    margin-top: 5.5em;
+    margin-bottom: 3em;
 }
 
 .blogCardsList{
@@ -90,7 +95,7 @@ html, body {
 }
 
 .uiCard.bt{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .blogImg{
@@ -144,9 +149,10 @@ html, body {
 }
 
 .writerName{
+    display: flex;
+    justify-content: space-between;
     max-width: 100%;
     min-height: 0;
-    flex-grow: 0;
     border-top: 1px solid rgba(0,0,0,.05);
     position: static;
     background: 0 0;
@@ -156,4 +162,25 @@ html, body {
     top: 0;
     left: 0;
     color: rgba(0,0,0,.4);
+}
+
+footer{
+    width: 100%;
+    background-color: #263146;
+    color: #ffffff;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    min-height: 6%;
+    display: flex;
+    align-items: center;
+}
+
+#foot{
+    width: 1127px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    font-size: 14px;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    max-width: 100% !important;
 }

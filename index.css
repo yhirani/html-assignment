@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     height: 100%;
@@ -79,9 +82,21 @@ html, body {
 }
 .largeComputer{
     width: 450px;
+    max-width: 100%;
     height: auto;
 
 }
+
+.mobileNav{
+    width: 50%;
+    align-self: flex-start;
+
+}
+.hamburger{
+    display: none;
+}
+
+
 .heading{
     display: inline;
     font-family: 'Playfair Display', serif;
@@ -254,8 +269,8 @@ html, body {
     align-items: flex-start;
 
     width: 1127px;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact{
@@ -318,4 +333,85 @@ footer{
     font-size: 14px;
     font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
     max-width: 100% !important;
+}
+
+@media screen and (max-device-width: 768px) {
+    .computerImage{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        text-align: right;
+        padding: 14px;
+    }
+
+    .introText{
+        width: 100vw;
+        margin-left: 14px;
+    }
+
+    .heading{
+
+        font-size: 3rem;
+    }
+
+    #Layer_1{
+        fill: #f8d16c;
+        height: 35px;
+        width: auto;
+    }
+
+    .icon{
+        padding: 14px;
+    }
+
+    #firstBackground{
+        background-color: #293b52;
+        background-image: none;
+    }
+
+    .container{
+        width: 100vw;
+        max-width: 100%;
+    }
+
+    .buttonBar{
+        display: none;
+    }
+
+    .projectList{
+        width: 75vw;
+        flex-wrap: wrap;
+    }
+
+    .fourCol{
+        margin-top: 28px;
+        margin-bottom: 28px;
+        width: 100vw;
+    }
+
+    .blogSubtitle{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    #lampImg{
+        width: 75vw;
+    }
+
+    .blogInfo{
+        width: 75vw;
+    }
+
+    .contactPanel{
+        flex-direction: column-reverse;
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 90vw;
+    }
+
+    #foot{
+        padding-left: 25px;
+    }
 }
