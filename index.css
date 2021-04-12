@@ -172,6 +172,8 @@ html, body {
 .viewMore{
     padding: 14px;
 }
+
+
 .view{
     background-color: transparent;
     text-transform: uppercase;
@@ -183,6 +185,10 @@ html, body {
     color: #263146;
     transition: background-color 0.3s;
     cursor: pointer;
+}
+
+.view:hover{
+    background-color: #f8d16c;
 }
 
 .blogPanel{
@@ -259,6 +265,10 @@ html, body {
     cursor: pointer;
 }
 
+.readBut:hover{
+    background-color: #f8d16c;
+}
+
 .blueColorBack{
     background-color: #293b52;
 }
@@ -326,25 +336,25 @@ footer{
     align-items: center;
 }
 
-.backNumber{
+.backNumber {
     color: rgba(248, 209, 108, 0.5);
     font-size: 13em;
     font-family: 'Bebas Neue', cursive;
-    z-index: -1;
     position: absolute;
-    left: 15%;
+    align-self: center;
+    transform: translate(23%, -35%);
 }
 
 .backNumber.two{
-    left: 35%;
+    transform: translate(23%, -38%);
 }
 
 .backNumber.three{
-    left: 55%;
+    transform: translate(33%, -26%);
 }
 
 .backNumber.four{
-    left: 70%;
+    transform: translate(33%, -22%);
 }
 #foot{
     width: 1127px;
@@ -437,5 +447,11 @@ footer{
         padding-left: 25px;
     }
 
+    .backNumber{
+        position: absolute;
+    }
 
+    .one{
+        top: 10vw;
+    }
 }
