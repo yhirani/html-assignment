@@ -144,6 +144,7 @@ html, body {
     flex-direction: row;
     width: 1127px;
     margin: auto;
+    margin-top: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -325,6 +326,26 @@ footer{
     align-items: center;
 }
 
+.backNumber{
+    color: rgba(248, 209, 108, 0.5);
+    font-size: 13em;
+    font-family: 'Bebas Neue', cursive;
+    z-index: -1;
+    position: absolute;
+    left: 15%;
+}
+
+.backNumber.two{
+    left: 35%;
+}
+
+.backNumber.three{
+    left: 55%;
+}
+
+.backNumber.four{
+    left: 70%;
+}
 #foot{
     width: 1127px;
     margin-left: auto !important;
@@ -335,7 +356,7 @@ footer{
     max-width: 100% !important;
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
     .computerImage{
         display: none;
     }
@@ -381,6 +402,7 @@ footer{
     }
 
     .projectList{
+
         width: 75vw;
         flex-wrap: wrap;
     }
@@ -414,4 +436,6 @@ footer{
     #foot{
         padding-left: 25px;
     }
+
+
 }

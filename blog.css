@@ -40,8 +40,8 @@ html, body {
 .icon{
     width: 50%;
     align-self: center;
-    padding-top: 0.5rem;
 }
+
 .buttonBar{
     width: 50%;
     padding-top: 0.5rem;
@@ -76,13 +76,14 @@ html, body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 5.5em;
-    margin-bottom: 3em;
+    margin-bottom: 0;
 }
 
 .blogCardsList{
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .uiCard{
@@ -183,4 +184,110 @@ footer{
     font-size: 14px;
     font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
     max-width: 100% !important;
+}
+
+.mobileNav{
+    width: 50%;
+    align-self: flex-start;
+
+}
+.hamburger{
+    display: none;
+}
+
+.blogHeading{
+    display: none;
+}
+
+.mediumLogo{
+    display: inline;
+    margin: 1em;
+}
+
+#mediumLogo{
+    width: 21px;
+    text-align: center;
+    height: 30px;
+}
+
+@media screen and (max-width: 1400px){
+    .container{
+        width: 100vw;
+        max-width: 100%;
+    }
+
+    .uiCard{
+        width: 25vw;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    #foot{
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .uiCard{
+        width: 35vw;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    #foot{
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hamburger{
+        display: block;
+        text-align: right;
+        padding: 14px;
+    }
+
+    #Layer_1{
+        fill: #000000;
+        height: 35px;
+        width: auto;
+    }
+
+    .icon{
+        padding: 14px;
+    }
+    .container{
+        width: 100vw;
+        max-width: 100%;
+    }
+
+    .buttonBar{
+        display: none;
+    }
+
+    .uiCard{
+        width: 40vw;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    .blogHeading{
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.5em;
+        align-self: center;
+        display: block;
+    }
+
+    #foot{
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .uiCard{
+        width: 75vw;
+    }
 }
