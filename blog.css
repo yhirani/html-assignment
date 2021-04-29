@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -167,6 +172,8 @@ html, body {
 
 footer{
     width: 100%;
+    position: absolute;
+    bottom: 0px;
     background-color: #263146;
     color: #ffffff;
     padding-top: 0.3em;
@@ -209,6 +216,8 @@ footer{
     text-align: center;
     height: 30px;
 }
+
+
 
 @media screen and (max-width: 1400px){
     .container{

@@ -326,6 +326,7 @@ html, body {
 }
 
 footer{
+
     width: 100%;
     background-color: #263146;
     color: #ffffff;
@@ -364,6 +365,50 @@ footer{
     font-size: 14px;
     font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
     max-width: 100% !important;
+}
+
+.No{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 23%;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 23%;
+}
+
+.mailIcon{
+    display: inline;
+    height: 14px;
+    width: auto;
+    fill: white;
+}
+
+.phoneIcon{
+    display: inline;
+    height: 14px;
+    width: auto;
+    fill: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .contactPanel{
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 90vw;
+    }
+
+    .topbar{
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 90vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -453,5 +498,13 @@ footer{
 
     .one{
         top: 10vw;
+    }
+
+    .No{
+        width: 65%;
+    }
+
+    .mail{
+        width: 60%;
     }
 }
