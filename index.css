@@ -409,6 +409,27 @@ footer{
         margin-right: 1em;
         width: 90vw;
     }
+
+    .container{
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 90vw;
+    }
+
+    .projectList{
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 90vw;
+    }
+
+    .blogSubtitle{
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 90vw;
+    }
+
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -423,7 +444,7 @@ footer{
     }
 
     .introText{
-        width: 100vw;
+        width: 90vw;
         margin-left: 14px;
     }
 
@@ -448,7 +469,7 @@ footer{
     }
 
     .container{
-        width: 100vw;
+        width: 90vw;
         max-width: 100%;
     }
 
@@ -465,11 +486,11 @@ footer{
     .fourCol{
         margin-top: 28px;
         margin-bottom: 28px;
-        width: 100vw;
+        width: 90vw;
     }
 
     .blogSubtitle{
-        width: 100vw;
+        width: 90vw;
         flex-wrap: wrap;
     }
 
